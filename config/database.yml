@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *default
+  database: bundle-api_development
+
+test:
+  <<: *default
+  database: bundle-api_test
+
+production:
+  <<: *default
+  database: bundle-api_production
+  username: bundle-api
+  password: <%= ENV['BUNDLE-API_DATABASE_PASSWORD'] %>

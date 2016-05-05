@@ -1,0 +1,10 @@
+en:
+  error_not_found: "Object was not found"
+  cant_destroy_token: "Token couldnt be destroyed"
+  user_not_authorized: "User not authorized"
+  provider_incorrect: "Incorrect provider"
+  could_not_favorite: "Could't favorite"
+  could_not_unfavorite: "Couldn't unfavorite"
+  couldnt_invite: "Couldn't invite user(s)"
+  couldnt_approve_invite: "Couldn't approve invite"
+  couldnt_share_by_url: "Couldn't share by url"
